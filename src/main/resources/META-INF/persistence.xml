@@ -1,0 +1,34 @@
+<persistence
+        version="2.1"
+        xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+                            http://xmlns.jcp.org/xml/ns/persistence_2_1.xsd">
+
+    <persistence-unit name="shmotPU">
+
+        <jta-data-source>shmotDS</jta-data-source>
+        <class>labrat.shmot.model.User</class>
+
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+
+        <properties>
+            <property name="hibernate." value=""/>
+            <property
+                    name="javax.persistence.schema-generation.database.action"
+                    value="drop-and-create"/>
+
+            <!--
+                When printing SQL in logs, let Hibernate format the SQL nicely and generate
+                comments into the SQL string so we know why Hibernate executed the SQL statement.
+            -->
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hibernate.use_sql_comments" value="true"/>
+
+            <!-- Disable Hibernate scanning completely, we also don't want any hbm.xml files
+                 discovered and added automatically. -->
+            <property name="hibernate.archive.autodetection" value="none"/>
+
+        </properties>
+    </persistence-unit>
+</persistence>
