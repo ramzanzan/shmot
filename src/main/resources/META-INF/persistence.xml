@@ -8,7 +8,7 @@
     <persistence-unit name="shmotPU">
 
         <jta-data-source>shmotDS</jta-data-source>
-        <class>labrat.shmot.model.User</class>
+        <class>labrat.shmot.model.Person</class>
 
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
 
