@@ -9,6 +9,8 @@
 
         <jta-data-source>shmotDS</jta-data-source>
         <class>labrat.shmot.model.Person</class>
+        <class>labrat.shmot.model.Item</class>
+        <class>labrat.shmot.model.Bid</class>
 
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
 
