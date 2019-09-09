@@ -17,11 +17,9 @@ public class ItemSize implements Serializable {
 
     @Column(nullable = false)
     @Enumerated(EnumType.STRING)
-    public SizeType Type;
+    public SizeType Type = SizeType.A;
 
-    public ItemSize(){
-        Type=SizeType.A;
-    }
+    public ItemSize(){}
 
     public ItemSize(byte size, byte add, SizeType type){
         Size=size;

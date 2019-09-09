@@ -92,7 +92,7 @@
           <configuration>
             <trimStackTrace>false</trimStackTrace>
             <includes>
-<!--              <include>**/SettingEnvironment.java</include>-->
+<!--              <include>**/environment.SettingEnvironment.java</include>-->
             </includes>
           </configuration>
         </plugin>

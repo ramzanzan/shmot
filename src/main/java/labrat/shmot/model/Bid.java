@@ -10,32 +10,99 @@ public class Bid {
 
     @Id
     @GeneratedValue
-    public long Id;
+    private long Id;
 
-    @NotNull
     @ManyToOne
-    @JoinColumn(name = "item_id", updatable = false)
-    public Item TargetItem;
+    @JoinColumn(name = "item_id", nullable = false, updatable = false)
+    private Item TargetItem;
 
     @ManyToMany(mappedBy = "OutgoingBids")
-    public Set<Item> OfferedItems = new HashSet<>();
+    private Set<Item> OfferedItems = new HashSet<>();
 
-    @NotNull
     @ManyToOne
-    @JoinColumn(name = "person_id",updatable = false)
-    public Person Bider;
+    @JoinColumn(name = "person_id", nullable = false, updatable = false)
+    private Person Bider;
 
+    /**
+     * Used abbreviations :
+     * Bi - Bider
+     * Ow - Owner
+     * Cf - Confirmed
+     * Dn - Deny
+     * Wt - are being Waiting
+     * To - Timeout
+     */
     public enum State{
         Open,
+        Paused,
+        Refused,
         Closed,
         BeingExchanging,
-        WaitingToConfirm,
-        Confirmed,
-        Refused,
+        BiCoOwWt,//
+        BiCoOwCo,
+        BiCoOwDn,
+        BiCoOwTo,
+        BiDnOwWt,//
+        BiDnOwCo,
+        BiDnOwDn,
+        BiDnOwTo,
+        BiWtOwCo,//
+        BiToOwCo,
+        BiWtOwDn,
+        BiToOwDn,
+        BiToOwTo,//
     }
 
     @Enumerated(EnumType.STRING)
-    public State Status = State.Open;
+    private State Status = State.Open;
 
     public Bid(){}
+
+    //region Properties
+    public long getId() {
+        return Id;
+    }
+    public Item getTargetItem() {
+        return TargetItem;
+    }
+
+    public void setTargetItem(Item targetItem) {
+        TargetItem = targetItem;
+    }
+
+    public Set<Item> getOfferedItems() {
+        return OfferedItems;
+    }
+    public Person getBider() {
+        return Bider;
+    }
+
+    public void setBider(Person bider) {
+        Bider = bider;
+    }
+
+    public State getStatus() {
+        return Status;
+    }
+
+    public void setStatus(State status) {
+        Status = status;
+    }
+    //endregion
+
+    @Override
+    public boolean equals(Object obj) {
+        if(this==obj) return true;
+        if(!(obj instanceof Bid)) return false;
+        Bid b = (Bid)obj;
+        return getBider().equals(b.getBider())
+                && getStatus().equals(b.getStatus())
+                && getTargetItem().equals(b.getTargetItem())
+                && getOfferedItems().equals(b.getOfferedItems());
+    }
+
+    @Override
+    public int hashCode() {
+        return getBider().hashCode() ^ getTargetItem().hashCode();
+    }
 }

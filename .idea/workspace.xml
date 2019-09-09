@@ -2,23 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87b1f1b1-ac07-4f3d-89a8-401ff423634e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/Bid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/ItemSize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/ItemSizeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/ItemType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/PathConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/Trading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FillingDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmlog38.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/environment/FilledDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/environment/MyUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mocks/MockPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmlog132.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shmot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shmot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/Bid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/Bid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/ItemSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/ItemSize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/PathConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/PathConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/Trading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/Trading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/package-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CrudTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmlog18.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CrudTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CrudTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FillingDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SettingEnvironment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/environment/SettingEnvironment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmlog38.log" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,17 +61,20 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../shmott" />
-      <recent name="$PROJECT_DIR$/src/main/java/jpaenv" />
-      <recent name="$PROJECT_DIR$/src/main/recources/META-INF" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/recources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../shmott" />
+      <recent name="$PROJECT_DIR$/src/main/java/jpaenv" />
+      <recent name="$PROJECT_DIR$/src/main/recources/META-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -84,11 +89,40 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.test">
-    <configuration name="SettingEnvironment.Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CrudTest">
+    <configuration name="CrudTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shmot" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SettingEnvironment" />
+      <option name="MAIN_CLASS_NAME" value="CrudTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrudTest.DeletionCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shmot" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CrudTest" />
+      <option name="METHOD_NAME" value="DeletionCase1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrudTest.RemoveAndPersist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shmot" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CrudTest" />
+      <option name="METHOD_NAME" value="RemoveAndPersist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SettingEnvironment.Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shmot" />
+      <option name="PACKAGE_NAME" value="environment" />
+      <option name="MAIN_CLASS_NAME" value="environment.SettingEnvironment" />
       <option name="METHOD_NAME" value="Test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea -Djava.util.logging.config.file=src/test/resources/logging.properties" />
@@ -99,8 +133,8 @@
     </configuration>
     <configuration name="SettingEnvironment.Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shmot" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SettingEnvironment" />
+      <option name="PACKAGE_NAME" value="environment" />
+      <option name="MAIN_CLASS_NAME" value="environment.SettingEnvironment" />
       <option name="METHOD_NAME" value="Test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -164,9 +198,15 @@
       <item itemvalue="Maven.package" />
       <item itemvalue="Maven.test" />
       <item itemvalue="JUnit.SettingEnvironment.Test2" />
+      <item itemvalue="JUnit.CrudTest" />
+      <item itemvalue="JUnit.CrudTest.DeletionCase1" />
+      <item itemvalue="JUnit.CrudTest.RemoveAndPersist" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CrudTest" />
+        <item itemvalue="JUnit.CrudTest.DeletionCase1" />
+        <item itemvalue="JUnit.CrudTest.RemoveAndPersist" />
         <item itemvalue="JUnit.SettingEnvironment.Test2" />
         <item itemvalue="JUnit.SettingEnvironment.Test1" />
       </list>
@@ -183,7 +223,7 @@
       <option name="presentableId" value="Default" />
       <updated>1567209812656</updated>
       <workItem from="1567209818056" duration="21066000" />
-      <workItem from="1567417625320" duration="32174000" />
+      <workItem from="1567417625320" duration="76503000" />
     </task>
     <servers />
   </component>
@@ -211,6 +251,11 @@
           <url>jar://$MAVEN_REPOSITORY$/simple-jndi/simple-jndi/0.11.4.1/simple-jndi-0.11.4.1.jar!/org/osjava/sj/loader/JndiLoader.class</url>
           <line>62</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/CrudTest.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -10,3 +10,4 @@ package labrat.shmot.model;
 import org.hibernate.annotations.*;
 
 //todo все енумы со стринг в ординал
+//todo surround with add properties template

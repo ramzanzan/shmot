@@ -15,7 +15,8 @@
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
 
         <properties>
-            <property name="hibernate." value=""/>
+            <property name="hibernate.use_identifier_rollback" value="true"/>
+
             <property
                     name="javax.persistence.schema-generation.database.action"
                     value="drop-and-create"/>
