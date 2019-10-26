@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87b1f1b1-ac07-4f3d-89a8-401ff423634e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/environment/FilledDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/environment/MyUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mocks/MockPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmlog132.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/Bid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/Bid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/ItemSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/ItemSize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/PathConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/PathConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/Trading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/Trading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labrat/shmot/model/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CrudTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CrudTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FillingDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SettingEnvironment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/environment/SettingEnvironment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmlog38.log" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +41,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -195,12 +178,12 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.SettingEnvironment.Test1" />
-      <item itemvalue="Maven.package" />
-      <item itemvalue="Maven.test" />
       <item itemvalue="JUnit.SettingEnvironment.Test2" />
       <item itemvalue="JUnit.CrudTest" />
       <item itemvalue="JUnit.CrudTest.DeletionCase1" />
       <item itemvalue="JUnit.CrudTest.RemoveAndPersist" />
+      <item itemvalue="Maven.package" />
+      <item itemvalue="Maven.test" />
     </list>
     <recent_temporary>
       <list>
@@ -223,7 +206,9 @@
       <option name="presentableId" value="Default" />
       <updated>1567209812656</updated>
       <workItem from="1567209818056" duration="21066000" />
-      <workItem from="1567417625320" duration="76503000" />
+      <workItem from="1567417625320" duration="80474000" />
+      <workItem from="1568657249726" duration="1312000" />
+      <workItem from="1569643729699" duration="636000" />
     </task>
     <servers />
   </component>
@@ -235,7 +220,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
